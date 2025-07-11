@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    <main class="main">
+      <header class="header">
+        <a href="#" class="logo">Quiz.</a>
+
+        <nav class="navbar">
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact Us</a>
+        </nav>
+      </header>
+
+
+       <div class="container">
+        <section class="quiz-section">
+          <div class="quiz-box">
+            <h1>ARCS QUIZ</h1>
+            <div class="quiz-header">
+              <span>Quiz Master</span>
+              <span class="header-score">Score: 0 / 9</span>
+            </div>
+            <h2 class="question-text">What does HTML stand for?</h2>
+            <div class="option-list"></div>
+            <div class="quiz-footer">
+              <span class="question-total">1 of 9 Questions</span>
+              <button class="next-btn">Next</button>
+            </div>
+          </div>
+
+          <div class="result-box">
+            <h2>Quiz Result</h2>
+            <div class="percentage-container">
+              <div class="circular-progress">
+                <span class="progress-value">0%</span>
+              </div>
+              <span class="score-text">Your Score 0 out of 9</span>
+            </div>
+            <div class="buttons">
+              <button class="tryagain-btn">Try Again</button>
+              <button class="goHome-btn">Go Home</button>
+            </div>
+          </div>
+          
+        </section>
+  
+          
+        </section>
+             <section class="home">
+                <div class="home-content">
+                  <h1>Quiz Master</h1>
+                   <p>Welcome to QuizMaster – test your knowledge, challenge yourself,
+                   and have fun with exciting quizzes across various topics!
+                  </p>
+                   <button class="start-btn">Start Quiz</button>
+              </div>
+          </section>
+    </div>
+    </main>
+    
+    <div class="popup-info">
+      <h2> Quiz Guide</h2>
+      <div class="info">1. Read Each Question Carefully</div>
+      <div class="info">2. Only one answer is correct unless specified.</div>
+      <div class="info">3. Review your results at the end of the quiz.</div>
+      <div class="info">4. Incorrect answers won't reduce your score unless mentioned.</div>
+      <div class="info">5. Try to complete the quiz without searching answers or taking help—keep it fair and fun!</div>
+      
+      <div class="btn-group">
+        <button class="info-btn exit-btn">Exit Quiz</button>
+        <button class="info-btn continue-btn">Continue</button>
+      </div>
+    </div>
+
+    <script src="question.js"></script>
+    <script src="script.js"></script>
+
+  
+</body>
+</html>
